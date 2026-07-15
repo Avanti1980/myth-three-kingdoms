@@ -6,11 +6,11 @@ case $2 in
     git push gitee master
     ;;
 "hub")
-    git push github main
+    git push github master
     ;;
 "both")
     git push gitee master
-    git push github main
+    git push github master
     ;;
 *)
     echo "error: 2nd par must be [ee|hub|both]!"
